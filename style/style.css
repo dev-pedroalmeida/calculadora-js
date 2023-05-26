@@ -12,12 +12,14 @@ body, html {
 }
 
 body {
-    background: linear-gradient(114deg, rgba(218,240,255,1) 0%, rgba(142,193,245,1) 60%, rgba(60,100,236,1) 100%) no-repeat;
+    background: linear-gradient(114deg, rgb(132, 171, 197) 0%, rgb(47, 96, 145) 60%, rgb(24, 44, 110) 100%) no-repeat;
     
     display: flex;
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
+    flex-direction: column;
+    gap: 42px;
 }
 
 .calculadora {
@@ -31,7 +33,7 @@ body {
 
 .tela {
     height: 107px;
-    background-color: rgba(18, 18, 20, 0.651);
+    background-color: rgba(18, 18, 20, 0.918);
     border-radius: 24px;
     padding: 20px 14px;
     margin-bottom: 12px;
@@ -103,4 +105,24 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #000000;
+}
+
+footer img {
+    height: 32px;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #000000;
 }
