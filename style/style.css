@@ -85,7 +85,8 @@ body {
     filter: brightness(1.2);
 }
 
-.btn.clear {
+.btn.clear,
+.btn.del {
     background-color: #616161;
     color: #A5A5A5;
 }
