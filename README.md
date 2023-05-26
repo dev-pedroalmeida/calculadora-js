@@ -2,7 +2,6 @@
 Calculadora feita utilizando HTML, CSS e Javascript
 
 ## Funções
-- [x] a
 - [x] Subtrair
 - [x] Multiplicar
 - [x] Dividir
